@@ -662,7 +662,7 @@ if Evolution["Options"]["Intro"] then
     Image.BackgroundTransparency = 1
     Image.Position = UDim2.new(0, newx, 0, newy)
     Image.Size = UDim2.new(0, 100, 0, 100)
-    Image.Image = "rbxassetid://14270853092"
+    Image.Image = "rbxassetid://18115701258"
     Image.ImageTransparency = 1
     Image.AnchorPoint = Vector2.new(0.5,0.5)
 
@@ -2552,10 +2552,10 @@ if Evolution["Options"]["Internal"].Enabled then
         local SaveManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/laagginq/LinoriaUI/main/save.lua'))()
         --local SaveManager = loadstring(game:HttpGet('https://pastebin.com/raw/cvjENmE0'))()
         
-        local title = "Streamable"
+        local title = "Streamable.wow"
 
         if string.find(LRM_UserNote,"dev") then 
-            title = "Evolution | Developer Build"
+            title = "4323498909| Developer Build"
         end
 
         local Window = Library:CreateWindow({
